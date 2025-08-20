@@ -1,3 +1,7 @@
+# Structure du dossier `CODE`
+
+```text
+CODE
 ├── DPE_BRETAGNE
 │   └── Code principal du mémoire :
 │       - Analyse statistique de l’impact du DPE et d’autres caractéristiques
