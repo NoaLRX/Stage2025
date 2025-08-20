@@ -1,5 +1,6 @@
-Explication de la structure du dossier:
+# Structure du dossier `CODE`
 
+```text
 CODE
 ├── DPE_BRETAGNE
 │   └── Code principal du mémoire :
