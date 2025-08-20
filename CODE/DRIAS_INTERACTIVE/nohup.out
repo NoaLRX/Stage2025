@@ -1,0 +1,86 @@
+Message d'avis :
+le package ‘shiny’ a été compilé avec la version R 4.4.1 
+Linking to GEOS 3.13.0, GDAL 3.8.5, PROJ 9.5.1; sf_use_s2() is TRUE
+Message d'avis :
+le package ‘sf’ a été compilé avec la version R 4.4.1 
+
+Attachement du package : ‘dplyr’
+
+Les objets suivants sont masqués depuis ‘package:stats’:
+
+    filter, lag
+
+Les objets suivants sont masqués depuis ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attachement du package : ‘rsconnect’
+
+L'objet suivant est masqué depuis ‘package:shiny’:
+
+    serverInfo
+
+Message d'avis :
+le package ‘rsconnect’ a été compilé avec la version R 4.4.1 
+Le chargement a nécessité le package : sp
+
+Attachement du package : ‘raster’
+
+L'objet suivant est masqué depuis ‘package:dplyr’:
+
+    select
+
+
+Attachement du package : ‘shinydashboard’
+
+L'objet suivant est masqué depuis ‘package:graphics’:
+
+    box
+
+
+Attachement du package : ‘jsonlite’
+
+L'objet suivant est masqué depuis ‘package:shiny’:
+
+    validate
+
+Message d'avis :
+le package ‘jsonlite’ a été compilé avec la version R 4.4.1 
+
+Attachement du package : ‘tidyr’
+
+L'objet suivant est masqué depuis ‘package:raster’:
+
+    extract
+
+
+Attachement du package : ‘gridExtra’
+
+L'objet suivant est masqué depuis ‘package:dplyr’:
+
+    combine
+
+
+Attachement du package : ‘shinyjs’
+
+L'objet suivant est masqué depuis ‘package:raster’:
+
+    click
+
+L'objet suivant est masqué depuis ‘package:sp’:
+
+    show
+
+L'objet suivant est masqué depuis ‘package:shiny’:
+
+    runExample
+
+Les objets suivants sont masqués depuis ‘package:methods’:
+
+    removeClass, show
+
+Message d'avis :
+Navigation containers expect a collection of `bslib::nav_panel()`/`shiny::tabPanel()`s and/or `bslib::nav_menu()`/`shiny::navbarMenu()`s. Consider using `header` or `footer` if you wish to place content above (or below) every panel's contents. 
+
+Listening on http://127.0.0.1:7218

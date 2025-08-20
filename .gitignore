@@ -51,3 +51,9 @@ rsconnect/
 # Ignorer les fichiers macOS
 .DS_Store
 
+
+# Ignorer les fichiers data
+CODE/DPE_BRETAGNE/data
+CODE/DRIAS_INTERACTIVE/Data
+CODE/RATIOS_CLIMATS/data
+

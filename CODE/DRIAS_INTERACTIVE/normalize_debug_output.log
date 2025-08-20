@@ -1,0 +1,487 @@
+Démarrage de la normalisation des données de précipitations...
+
+Traitement du dossier: Data/CUMUL_PRECIP_HIVER/Resultats 
+Traitement du fichier: Data/CUMUL_PRECIP_HIVER/Resultats/CUMUL_PRECIP_HIVER_2_6_clean_FINAL_RESULTS_POSTAL.gpkg 
+Colonnes dans le fichier de scénario: LIB, CODE_C, DEP, NORRR_H1, ARR_H1, NORRR_H2, ARR_H2, NORRR_H3, ARR_H3, geom 
+Colonnes dans le fichier de référence: LIB, CODE_C, DEP, NORRR_REF, geom 
+Normalisation de NORRR_H1 par rapport à NORRR_REF 
+Échantillon avant normalisation ( 5  lignes):
+CODE_C: 26140 , Valeur scénario ( NORRR_H1 ): 172.571 , Valeur REF ( NORRR_REF ): 146.6147 
+CODE_C: 26150 , Valeur scénario ( NORRR_H1 ): 292.0642 , Valeur REF ( NORRR_REF ): 242.9852 
+CODE_C: 26160 , Valeur scénario ( NORRR_H1 ): 211.1272 , Valeur REF ( NORRR_REF ): 176.1008 
+CODE_C: 26300 , Valeur scénario ( NORRR_H1 ): 194.0509 , Valeur REF ( NORRR_REF ): 167.8402 
+CODE_C: 26170 , Valeur scénario ( NORRR_H1 ): 235.9059 , Valeur REF ( NORRR_REF ): 183.4765 
+Échantillon après normalisation ( 5  lignes):
+CODE_C: 26140 , % Variation: 17.70373 , Calcul: (( 172.571  -  146.6147 ) / | 146.6147 |) * 100
+CODE_C: 26150 , % Variation: 20.19834 , Calcul: (( 292.0642  -  242.9852 ) / | 242.9852 |) * 100
+CODE_C: 26160 , % Variation: 19.88995 , Calcul: (( 211.1272  -  176.1008 ) / | 176.1008 |) * 100
+CODE_C: 26300 , % Variation: 15.61648 , Calcul: (( 194.0509  -  167.8402 ) / | 167.8402 |) * 100
+CODE_C: 26170 , % Variation: 28.57556 , Calcul: (( 235.9059  -  183.4765 ) / | 183.4765 |) * 100
+Mise à jour ligne 1 : CODE_C = 26140 , Nouvelle valeur normalisée = 17.70373 
+Mise à jour ligne 2 : CODE_C = 26150 , Nouvelle valeur normalisée = 20.19834 
+Mise à jour ligne 3 : CODE_C = 26160 , Nouvelle valeur normalisée = 19.88995 
+Mise à jour ligne 4 : CODE_C = 26300 , Nouvelle valeur normalisée = 15.61648 
+Mise à jour ligne 5 : CODE_C = 26170 , Nouvelle valeur normalisée = 28.57556 
+Colonne NORRR_H1 normalisée
+Normalisation de NORRR_H2 par rapport à NORRR_REF 
+Échantillon avant normalisation ( 5  lignes):
+CODE_C: 26140 , Valeur scénario ( NORRR_H2 ): 168.7239 , Valeur REF ( NORRR_REF ): 146.6147 
+CODE_C: 26150 , Valeur scénario ( NORRR_H2 ): 293.5401 , Valeur REF ( NORRR_REF ): 242.9852 
+CODE_C: 26160 , Valeur scénario ( NORRR_H2 ): 207.9827 , Valeur REF ( NORRR_REF ): 176.1008 
+CODE_C: 26300 , Valeur scénario ( NORRR_H2 ): 195.1402 , Valeur REF ( NORRR_REF ): 167.8402 
+CODE_C: 26170 , Valeur scénario ( NORRR_H2 ): 223.1252 , Valeur REF ( NORRR_REF ): 183.4765 
+Échantillon après normalisation ( 5  lignes):
+CODE_C: 26140 , % Variation: 15.07978 , Calcul: (( 168.7239  -  146.6147 ) / | 146.6147 |) * 100
+CODE_C: 26150 , % Variation: 20.80573 , Calcul: (( 293.5401  -  242.9852 ) / | 242.9852 |) * 100
+CODE_C: 26160 , % Variation: 18.1043 , Calcul: (( 207.9827  -  176.1008 ) / | 176.1008 |) * 100
+CODE_C: 26300 , % Variation: 16.26548 , Calcul: (( 195.1402  -  167.8402 ) / | 167.8402 |) * 100
+CODE_C: 26170 , % Variation: 21.60968 , Calcul: (( 223.1252  -  183.4765 ) / | 183.4765 |) * 100
+Mise à jour ligne 1 : CODE_C = 26140 , Nouvelle valeur normalisée = 15.07978 
+Mise à jour ligne 2 : CODE_C = 26150 , Nouvelle valeur normalisée = 20.80573 
+Mise à jour ligne 3 : CODE_C = 26160 , Nouvelle valeur normalisée = 18.1043 
+Mise à jour ligne 4 : CODE_C = 26300 , Nouvelle valeur normalisée = 16.26548 
+Mise à jour ligne 5 : CODE_C = 26170 , Nouvelle valeur normalisée = 21.60968 
+Colonne NORRR_H2 normalisée
+Normalisation de NORRR_H3 par rapport à NORRR_REF 
+Échantillon avant normalisation ( 5  lignes):
+CODE_C: 26140 , Valeur scénario ( NORRR_H3 ): 157.1058 , Valeur REF ( NORRR_REF ): 146.6147 
+CODE_C: 26150 , Valeur scénario ( NORRR_H3 ): 263.8605 , Valeur REF ( NORRR_REF ): 242.9852 
+CODE_C: 26160 , Valeur scénario ( NORRR_H3 ): 195.1647 , Valeur REF ( NORRR_REF ): 176.1008 
+CODE_C: 26300 , Valeur scénario ( NORRR_H3 ): 185.6697 , Valeur REF ( NORRR_REF ): 167.8402 
+CODE_C: 26170 , Valeur scénario ( NORRR_H3 ): 209.1662 , Valeur REF ( NORRR_REF ): 183.4765 
+Échantillon après normalisation ( 5  lignes):
+CODE_C: 26140 , % Variation: 7.155522 , Calcul: (( 157.1058  -  146.6147 ) / | 146.6147 |) * 100
+CODE_C: 26150 , % Variation: 8.591172 , Calcul: (( 263.8605  -  242.9852 ) / | 242.9852 |) * 100
+CODE_C: 26160 , % Variation: 10.82553 , Calcul: (( 195.1647  -  176.1008 ) / | 176.1008 |) * 100
+CODE_C: 26300 , % Variation: 10.62291 , Calcul: (( 185.6697  -  167.8402 ) / | 167.8402 |) * 100
+CODE_C: 26170 , % Variation: 14.00165 , Calcul: (( 209.1662  -  183.4765 ) / | 183.4765 |) * 100
+Mise à jour ligne 1 : CODE_C = 26140 , Nouvelle valeur normalisée = 7.155522 
+Mise à jour ligne 2 : CODE_C = 26150 , Nouvelle valeur normalisée = 8.591172 
+Mise à jour ligne 3 : CODE_C = 26160 , Nouvelle valeur normalisée = 10.82553 
+Mise à jour ligne 4 : CODE_C = 26300 , Nouvelle valeur normalisée = 10.62291 
+Mise à jour ligne 5 : CODE_C = 26170 , Nouvelle valeur normalisée = 14.00165 
+Colonne NORRR_H3 normalisée
+Fichier normalisé créé: Data/DRIAS_NORM/CUMUL_PRECIP_HIVER/Resultats/CUMUL_PRECIP_HIVER_2_6_clean_FINAL_RESULTS_POSTAL.gpkg 
+Traitement du fichier: Data/CUMUL_PRECIP_HIVER/Resultats/CUMUL_PRECIP_HIVER_4_5_clean_FINAL_RESULTS_POSTAL.gpkg 
+Colonnes dans le fichier de scénario: LIB, CODE_C, DEP, NORRR_H1, ARR_H1, NORRR_H2, ARR_H2, NORRR_H3, ARR_H3, geom 
+Colonnes dans le fichier de référence: LIB, CODE_C, DEP, NORRR_REF, geom 
+Normalisation de NORRR_H1 par rapport à NORRR_REF 
+Échantillon avant normalisation ( 5  lignes):
+CODE_C: 26140 , Valeur scénario ( NORRR_H1 ): 175.9305 , Valeur REF ( NORRR_REF ): 146.6147 
+CODE_C: 26150 , Valeur scénario ( NORRR_H1 ): 304.2995 , Valeur REF ( NORRR_REF ): 242.9852 
+CODE_C: 26160 , Valeur scénario ( NORRR_H1 ): 215.7332 , Valeur REF ( NORRR_REF ): 176.1008 
+CODE_C: 26300 , Valeur scénario ( NORRR_H1 ): 207.5756 , Valeur REF ( NORRR_REF ): 167.8402 
+CODE_C: 26170 , Valeur scénario ( NORRR_H1 ): 236.0562 , Valeur REF ( NORRR_REF ): 183.4765 
+Échantillon après normalisation ( 5  lignes):
+CODE_C: 26140 , % Variation: 19.99509 , Calcul: (( 175.9305  -  146.6147 ) / | 146.6147 |) * 100
+CODE_C: 26150 , % Variation: 25.23372 , Calcul: (( 304.2995  -  242.9852 ) / | 242.9852 |) * 100
+CODE_C: 26160 , % Variation: 22.50551 , Calcul: (( 215.7332  -  176.1008 ) / | 176.1008 |) * 100
+CODE_C: 26300 , % Variation: 23.67452 , Calcul: (( 207.5756  -  167.8402 ) / | 167.8402 |) * 100
+CODE_C: 26170 , % Variation: 28.65748 , Calcul: (( 236.0562  -  183.4765 ) / | 183.4765 |) * 100
+Mise à jour ligne 1 : CODE_C = 26140 , Nouvelle valeur normalisée = 19.99509 
+Mise à jour ligne 2 : CODE_C = 26150 , Nouvelle valeur normalisée = 25.23372 
+Mise à jour ligne 3 : CODE_C = 26160 , Nouvelle valeur normalisée = 22.50551 
+Mise à jour ligne 4 : CODE_C = 26300 , Nouvelle valeur normalisée = 23.67452 
+Mise à jour ligne 5 : CODE_C = 26170 , Nouvelle valeur normalisée = 28.65748 
+Colonne NORRR_H1 normalisée
+Normalisation de NORRR_H2 par rapport à NORRR_REF 
+Échantillon avant normalisation ( 5  lignes):
+CODE_C: 26140 , Valeur scénario ( NORRR_H2 ): 163.0186 , Valeur REF ( NORRR_REF ): 146.6147 
+CODE_C: 26150 , Valeur scénario ( NORRR_H2 ): 283.5921 , Valeur REF ( NORRR_REF ): 242.9852 
+CODE_C: 26160 , Valeur scénario ( NORRR_H2 ): 197.0237 , Valeur REF ( NORRR_REF ): 176.1008 
+CODE_C: 26300 , Valeur scénario ( NORRR_H2 ): 189.1278 , Valeur REF ( NORRR_REF ): 167.8402 
+CODE_C: 26170 , Valeur scénario ( NORRR_H2 ): 210.36 , Valeur REF ( NORRR_REF ): 183.4765 
+Échantillon après normalisation ( 5  lignes):
+CODE_C: 26140 , % Variation: 11.18842 , Calcul: (( 163.0186  -  146.6147 ) / | 146.6147 |) * 100
+CODE_C: 26150 , % Variation: 16.71164 , Calcul: (( 283.5921  -  242.9852 ) / | 242.9852 |) * 100
+CODE_C: 26160 , % Variation: 11.8812 , Calcul: (( 197.0237  -  176.1008 ) / | 176.1008 |) * 100
+CODE_C: 26300 , % Variation: 12.68326 , Calcul: (( 189.1278  -  167.8402 ) / | 167.8402 |) * 100
+CODE_C: 26170 , % Variation: 14.65228 , Calcul: (( 210.36  -  183.4765 ) / | 183.4765 |) * 100
+Mise à jour ligne 1 : CODE_C = 26140 , Nouvelle valeur normalisée = 11.18842 
+Mise à jour ligne 2 : CODE_C = 26150 , Nouvelle valeur normalisée = 16.71164 
+Mise à jour ligne 3 : CODE_C = 26160 , Nouvelle valeur normalisée = 11.8812 
+Mise à jour ligne 4 : CODE_C = 26300 , Nouvelle valeur normalisée = 12.68326 
+Mise à jour ligne 5 : CODE_C = 26170 , Nouvelle valeur normalisée = 14.65228 
+Colonne NORRR_H2 normalisée
+Normalisation de NORRR_H3 par rapport à NORRR_REF 
+Échantillon avant normalisation ( 5  lignes):
+CODE_C: 26140 , Valeur scénario ( NORRR_H3 ): 167.6123 , Valeur REF ( NORRR_REF ): 146.6147 
+CODE_C: 26150 , Valeur scénario ( NORRR_H3 ): 288.572 , Valeur REF ( NORRR_REF ): 242.9852 
+CODE_C: 26160 , Valeur scénario ( NORRR_H3 ): 203.5548 , Valeur REF ( NORRR_REF ): 176.1008 
+CODE_C: 26300 , Valeur scénario ( NORRR_H3 ): 193.6488 , Valeur REF ( NORRR_REF ): 167.8402 
+CODE_C: 26170 , Valeur scénario ( NORRR_H3 ): 223.8647 , Valeur REF ( NORRR_REF ): 183.4765 
+Échantillon après normalisation ( 5  lignes):
+CODE_C: 26140 , % Variation: 14.32159 , Calcul: (( 167.6123  -  146.6147 ) / | 146.6147 |) * 100
+CODE_C: 26150 , % Variation: 18.76113 , Calcul: (( 288.572  -  242.9852 ) / | 242.9852 |) * 100
+CODE_C: 26160 , % Variation: 15.58991 , Calcul: (( 203.5548  -  176.1008 ) / | 176.1008 |) * 100
+CODE_C: 26300 , % Variation: 15.37691 , Calcul: (( 193.6488  -  167.8402 ) / | 167.8402 |) * 100
+CODE_C: 26170 , % Variation: 22.01274 , Calcul: (( 223.8647  -  183.4765 ) / | 183.4765 |) * 100
+Mise à jour ligne 1 : CODE_C = 26140 , Nouvelle valeur normalisée = 14.32159 
+Mise à jour ligne 2 : CODE_C = 26150 , Nouvelle valeur normalisée = 18.76113 
+Mise à jour ligne 3 : CODE_C = 26160 , Nouvelle valeur normalisée = 15.58991 
+Mise à jour ligne 4 : CODE_C = 26300 , Nouvelle valeur normalisée = 15.37691 
+Mise à jour ligne 5 : CODE_C = 26170 , Nouvelle valeur normalisée = 22.01274 
+Colonne NORRR_H3 normalisée
+Fichier normalisé créé: Data/DRIAS_NORM/CUMUL_PRECIP_HIVER/Resultats/CUMUL_PRECIP_HIVER_4_5_clean_FINAL_RESULTS_POSTAL.gpkg 
+Traitement du fichier: Data/CUMUL_PRECIP_HIVER/Resultats/CUMUL_PRECIP_HIVER_8_5_clean_FINAL_RESULTS_POSTAL.gpkg 
+***** FICHIER SCÉNARIO 8.5 DÉTECTÉ *****
+Colonnes dans le fichier de scénario: LIB, CODE_C, DEP, NORRR_H1, ARR_H1, NORRR_H2, ARR_H2, NORRR_H3, ARR_H3, geom 
+Colonnes dans le fichier de référence: LIB, CODE_C, DEP, NORRR_REF, geom 
+Normalisation de NORRR_H1 par rapport à NORRR_REF 
+Échantillon avant normalisation ( 5  lignes):
+CODE_C: 26140 , Valeur scénario ( NORRR_H1 ): 161.4494 , Valeur REF ( NORRR_REF ): 146.6147 
+CODE_C: 26150 , Valeur scénario ( NORRR_H1 ): 274.0055 , Valeur REF ( NORRR_REF ): 242.9852 
+CODE_C: 26160 , Valeur scénario ( NORRR_H1 ): 197.7778 , Valeur REF ( NORRR_REF ): 176.1008 
+CODE_C: 26300 , Valeur scénario ( NORRR_H1 ): 184.6591 , Valeur REF ( NORRR_REF ): 167.8402 
+CODE_C: 26170 , Valeur scénario ( NORRR_H1 ): 212.9726 , Valeur REF ( NORRR_REF ): 183.4765 
+Échantillon après normalisation ( 5  lignes):
+CODE_C: 26140 , % Variation: 10.11811 , Calcul: (( 161.4494  -  146.6147 ) / | 146.6147 |) * 100
+CODE_C: 26150 , % Variation: 12.76631 , Calcul: (( 274.0055  -  242.9852 ) / | 242.9852 |) * 100
+CODE_C: 26160 , % Variation: 12.3094 , Calcul: (( 197.7778  -  176.1008 ) / | 176.1008 |) * 100
+CODE_C: 26300 , % Variation: 10.02081 , Calcul: (( 184.6591  -  167.8402 ) / | 167.8402 |) * 100
+CODE_C: 26170 , % Variation: 16.07621 , Calcul: (( 212.9726  -  183.4765 ) / | 183.4765 |) * 100
+Mise à jour ligne 1 : CODE_C = 26140 , Nouvelle valeur normalisée = 10.11811 
+Mise à jour ligne 2 : CODE_C = 26150 , Nouvelle valeur normalisée = 12.76631 
+Mise à jour ligne 3 : CODE_C = 26160 , Nouvelle valeur normalisée = 12.3094 
+Mise à jour ligne 4 : CODE_C = 26300 , Nouvelle valeur normalisée = 10.02081 
+Mise à jour ligne 5 : CODE_C = 26170 , Nouvelle valeur normalisée = 16.07621 
+Colonne NORRR_H1 normalisée
+Normalisation de NORRR_H2 par rapport à NORRR_REF 
+Échantillon avant normalisation ( 5  lignes):
+CODE_C: 26140 , Valeur scénario ( NORRR_H2 ): 178.884 , Valeur REF ( NORRR_REF ): 146.6147 
+CODE_C: 26150 , Valeur scénario ( NORRR_H2 ): 293.065 , Valeur REF ( NORRR_REF ): 242.9852 
+CODE_C: 26160 , Valeur scénario ( NORRR_H2 ): 224.6667 , Valeur REF ( NORRR_REF ): 176.1008 
+CODE_C: 26300 , Valeur scénario ( NORRR_H2 ): 207.832 , Valeur REF ( NORRR_REF ): 167.8402 
+CODE_C: 26170 , Valeur scénario ( NORRR_H2 ): 238.2385 , Valeur REF ( NORRR_REF ): 183.4765 
+Échantillon après normalisation ( 5  lignes):
+CODE_C: 26140 , % Variation: 22.00955 , Calcul: (( 178.884  -  146.6147 ) / | 146.6147 |) * 100
+CODE_C: 26150 , % Variation: 20.61019 , Calcul: (( 293.065  -  242.9852 ) / | 242.9852 |) * 100
+CODE_C: 26160 , % Variation: 27.57842 , Calcul: (( 224.6667  -  176.1008 ) / | 176.1008 |) * 100
+CODE_C: 26300 , % Variation: 23.82732 , Calcul: (( 207.832  -  167.8402 ) / | 167.8402 |) * 100
+CODE_C: 26170 , % Variation: 29.84688 , Calcul: (( 238.2385  -  183.4765 ) / | 183.4765 |) * 100
+Mise à jour ligne 1 : CODE_C = 26140 , Nouvelle valeur normalisée = 22.00955 
+Mise à jour ligne 2 : CODE_C = 26150 , Nouvelle valeur normalisée = 20.61019 
+Mise à jour ligne 3 : CODE_C = 26160 , Nouvelle valeur normalisée = 27.57842 
+Mise à jour ligne 4 : CODE_C = 26300 , Nouvelle valeur normalisée = 23.82732 
+Mise à jour ligne 5 : CODE_C = 26170 , Nouvelle valeur normalisée = 29.84688 
+Colonne NORRR_H2 normalisée
+
+***** TRAITEMENT DÉTAILLÉ POUR SCÉNARIO 8.5 ET HORIZON H3 *****
+Normalisation de NORRR_H3 par rapport à NORRR_REF 
+Échantillon avant normalisation ( 20  lignes):
+CODE_C: 26140 , Valeur scénario ( NORRR_H3 ): 176.3136 , Valeur REF ( NORRR_REF ): 146.6147 
+CODE_C: 26150 , Valeur scénario ( NORRR_H3 ): 296.4919 , Valeur REF ( NORRR_REF ): 242.9852 
+CODE_C: 26160 , Valeur scénario ( NORRR_H3 ): 205.773 , Valeur REF ( NORRR_REF ): 176.1008 
+CODE_C: 26300 , Valeur scénario ( NORRR_H3 ): 198.4632 , Valeur REF ( NORRR_REF ): 167.8402 
+CODE_C: 26170 , Valeur scénario ( NORRR_H3 ): 209.9217 , Valeur REF ( NORRR_REF ): 183.4765 
+CODE_C: 26190 , Valeur scénario ( NORRR_H3 ): 285.0465 , Valeur REF ( NORRR_REF ): 247.8726 
+CODE_C: 26200 , Valeur scénario ( NORRR_H3 ): 186.168 , Valeur REF ( NORRR_REF ): 162.8564 
+CODE_C: 45800 , Valeur scénario ( NORRR_H3 ): 203.11 , Valeur REF ( NORRR_REF ): 171.4779 
+CODE_C: 26210 , Valeur scénario ( NORRR_H3 ): 211.3992 , Valeur REF ( NORRR_REF ): 174.258 
+CODE_C: 26220 , Valeur scénario ( NORRR_H3 ): 250.7607 , Valeur REF ( NORRR_REF ): 201.8889 
+CODE_C: 26230 , Valeur scénario ( NORRR_H3 ): 183.1672 , Valeur REF ( NORRR_REF ): 156.9889 
+CODE_C: 26240 , Valeur scénario ( NORRR_H3 ): 172.1118 , Valeur REF ( NORRR_REF ): 145.8705 
+CODE_C: 26250 , Valeur scénario ( NORRR_H3 ): 165.8553 , Valeur REF ( NORRR_REF ): 144.0306 
+CODE_C: 26260 , Valeur scénario ( NORRR_H3 ): 179.5628 , Valeur REF ( NORRR_REF ): 146.5523 
+CODE_C: 26310 , Valeur scénario ( NORRR_H3 ): 254.1727 , Valeur REF ( NORRR_REF ): 223.9082 
+CODE_C: 26320 , Valeur scénario ( NORRR_H3 ): 170.1541 , Valeur REF ( NORRR_REF ): 143.9768 
+CODE_C: 26330 , Valeur scénario ( NORRR_H3 ): 177.8789 , Valeur REF ( NORRR_REF ): 147.5861 
+CODE_C: 26450 , Valeur scénario ( NORRR_H3 ): 194.7452 , Valeur REF ( NORRR_REF ): 169.5779 
+CODE_C: 26340 , Valeur scénario ( NORRR_H3 ): 252.4447 , Valeur REF ( NORRR_REF ): 210.0035 
+CODE_C: 26350 , Valeur scénario ( NORRR_H3 ): 206.0479 , Valeur REF ( NORRR_REF ): 166.4105 
+
+Recherche de Plabennec ou des communes comportant 'Plabenn' dans leur code:
+COMMUNE PLABENNEC TROUVÉE - CODE_C: 29160 , Valeur scénario: 312.5737 , Valeur REF: 267.9179 
+
+STATISTIQUES DES VALEURS NORMALISÉES:
+Min: -23.02844 , Max: 43.92022 , Moyenne: 20.37741 , Médiane: 20.32714 
+Quantiles (5%, 25%, 75%, 95%): 4.364418 14.45556 28.32639 33.70655 
+Échantillon après normalisation ( 20  lignes):
+CODE_C: 26140 , % Variation: 20.25642 , Calcul: (( 176.3136  -  146.6147 ) / | 146.6147 |) * 100
+CODE_C: 26150 , % Variation: 22.02055 , Calcul: (( 296.4919  -  242.9852 ) / | 242.9852 |) * 100
+CODE_C: 26160 , % Variation: 16.84955 , Calcul: (( 205.773  -  176.1008 ) / | 176.1008 |) * 100
+CODE_C: 26300 , % Variation: 18.24531 , Calcul: (( 198.4632  -  167.8402 ) / | 167.8402 |) * 100
+CODE_C: 26170 , % Variation: 14.41341 , Calcul: (( 209.9217  -  183.4765 ) / | 183.4765 |) * 100
+CODE_C: 26190 , % Variation: 14.99718 , Calcul: (( 285.0465  -  247.8726 ) / | 247.8726 |) * 100
+CODE_C: 26200 , % Variation: 14.3142 , Calcul: (( 186.168  -  162.8564 ) / | 162.8564 |) * 100
+CODE_C: 45800 , % Variation: 18.44677 , Calcul: (( 203.11  -  171.4779 ) / | 171.4779 |) * 100
+CODE_C: 26210 , % Variation: 21.31387 , Calcul: (( 211.3992  -  174.258 ) / | 174.258 |) * 100
+CODE_C: 26220 , % Variation: 24.20725 , Calcul: (( 250.7607  -  201.8889 ) / | 201.8889 |) * 100
+CODE_C: 26230 , % Variation: 16.67531 , Calcul: (( 183.1672  -  156.9889 ) / | 156.9889 |) * 100
+CODE_C: 26240 , % Variation: 17.9895 , Calcul: (( 172.1118  -  145.8705 ) / | 145.8705 |) * 100
+CODE_C: 26250 , % Variation: 15.1528 , Calcul: (( 165.8553  -  144.0306 ) / | 144.0306 |) * 100
+CODE_C: 26260 , % Variation: 22.52472 , Calcul: (( 179.5628  -  146.5523 ) / | 146.5523 |) * 100
+CODE_C: 26310 , % Variation: 13.51647 , Calcul: (( 254.1727  -  223.9082 ) / | 223.9082 |) * 100
+CODE_C: 26320 , % Variation: 18.18157 , Calcul: (( 170.1541  -  143.9768 ) / | 143.9768 |) * 100
+CODE_C: 26330 , % Variation: 20.52553 , Calcul: (( 177.8789  -  147.5861 ) / | 147.5861 |) * 100
+CODE_C: 26450 , % Variation: 14.84113 , Calcul: (( 194.7452  -  169.5779 ) / | 169.5779 |) * 100
+CODE_C: 26340 , % Variation: 20.20978 , Calcul: (( 252.4447  -  210.0035 ) / | 210.0035 |) * 100
+CODE_C: 26350 , % Variation: 23.81903 , Calcul: (( 206.0479  -  166.4105 ) / | 166.4105 |) * 100
+Mise à jour ligne 1 : CODE_C = 26140 , Nouvelle valeur normalisée = 20.25642 
+Mise à jour ligne 2 : CODE_C = 26150 , Nouvelle valeur normalisée = 22.02055 
+Mise à jour ligne 3 : CODE_C = 26160 , Nouvelle valeur normalisée = 16.84955 
+Mise à jour ligne 4 : CODE_C = 26300 , Nouvelle valeur normalisée = 18.24531 
+Mise à jour ligne 5 : CODE_C = 26170 , Nouvelle valeur normalisée = 14.41341 
+Mise à jour ligne 6 : CODE_C = 26190 , Nouvelle valeur normalisée = 14.99718 
+Mise à jour ligne 7 : CODE_C = 26200 , Nouvelle valeur normalisée = 14.3142 
+Mise à jour ligne 8 : CODE_C = 45800 , Nouvelle valeur normalisée = 18.44677 
+Mise à jour ligne 9 : CODE_C = 26210 , Nouvelle valeur normalisée = 21.31387 
+Mise à jour ligne 10 : CODE_C = 26220 , Nouvelle valeur normalisée = 24.20725 
+Mise à jour ligne 11 : CODE_C = 26230 , Nouvelle valeur normalisée = 16.67531 
+Mise à jour ligne 12 : CODE_C = 26240 , Nouvelle valeur normalisée = 17.9895 
+Mise à jour ligne 13 : CODE_C = 26250 , Nouvelle valeur normalisée = 15.1528 
+Mise à jour ligne 14 : CODE_C = 26260 , Nouvelle valeur normalisée = 22.52472 
+Mise à jour ligne 15 : CODE_C = 26310 , Nouvelle valeur normalisée = 13.51647 
+Mise à jour ligne 16 : CODE_C = 26320 , Nouvelle valeur normalisée = 18.18157 
+Mise à jour ligne 17 : CODE_C = 26330 , Nouvelle valeur normalisée = 20.52553 
+Mise à jour ligne 18 : CODE_C = 26450 , Nouvelle valeur normalisée = 14.84113 
+Mise à jour ligne 19 : CODE_C = 26340 , Nouvelle valeur normalisée = 20.20978 
+Mise à jour ligne 20 : CODE_C = 26350 , Nouvelle valeur normalisée = 23.81903 
+Colonne NORRR_H3 normalisée
+Fichier normalisé créé: Data/DRIAS_NORM/CUMUL_PRECIP_HIVER/Resultats/CUMUL_PRECIP_HIVER_8_5_clean_FINAL_RESULTS_POSTAL.gpkg 
+Traitement du fichier: Data/CUMUL_PRECIP_HIVER/Resultats/CUMUL_PRECIP_HIVER_REF_clean_FINAL_RESULTS_POSTAL.gpkg 
+Fichier de référence détecté, copie directe...
+
+Traitement du dossier: Data/CUMUL_PRECIP_ETE/Resultats 
+Traitement du fichier: Data/CUMUL_PRECIP_ETE/Resultats/CUMUL_PRECIP_ETE_2_6_clean_FINAL_RESULTS_POSTAL.gpkg 
+Colonnes dans le fichier de scénario: LIB, CODE_C, DEP, NORRR_H1, ARR_H1, NORRR_H2, ARR_H2, NORRR_H3, ARR_H3, geom 
+Colonnes dans le fichier de référence: LIB, CODE_C, DEP, NORRR_REF, geom 
+Normalisation de NORRR_H1 par rapport à NORRR_REF 
+Échantillon avant normalisation ( 5  lignes):
+CODE_C: 26140 , Valeur scénario ( NORRR_H1 ): 157.6185 , Valeur REF ( NORRR_REF ): 183.2058 
+CODE_C: 26150 , Valeur scénario ( NORRR_H1 ): 197.89 , Valeur REF ( NORRR_REF ): 239.0507 
+CODE_C: 26160 , Valeur scénario ( NORRR_H1 ): 143.5969 , Valeur REF ( NORRR_REF ): 176.531 
+CODE_C: 26300 , Valeur scénario ( NORRR_H1 ): 158.6422 , Valeur REF ( NORRR_REF ): 189.7483 
+CODE_C: 26170 , Valeur scénario ( NORRR_H1 ): 134.134 , Valeur REF ( NORRR_REF ): 167.5007 
+Échantillon après normalisation ( 5  lignes):
+CODE_C: 26140 , % Variation: -13.9664 , Calcul: (( 157.6185  -  183.2058 ) / | 183.2058 |) * 100
+CODE_C: 26150 , % Variation: -17.2184 , Calcul: (( 197.89  -  239.0507 ) / | 239.0507 |) * 100
+CODE_C: 26160 , % Variation: -18.65626 , Calcul: (( 143.5969  -  176.531 ) / | 176.531 |) * 100
+CODE_C: 26300 , % Variation: -16.39336 , Calcul: (( 158.6422  -  189.7483 ) / | 189.7483 |) * 100
+CODE_C: 26170 , % Variation: -19.9203 , Calcul: (( 134.134  -  167.5007 ) / | 167.5007 |) * 100
+Mise à jour ligne 1 : CODE_C = 26140 , Nouvelle valeur normalisée = -13.9664 
+Mise à jour ligne 2 : CODE_C = 26150 , Nouvelle valeur normalisée = -17.2184 
+Mise à jour ligne 3 : CODE_C = 26160 , Nouvelle valeur normalisée = -18.65626 
+Mise à jour ligne 4 : CODE_C = 26300 , Nouvelle valeur normalisée = -16.39336 
+Mise à jour ligne 5 : CODE_C = 26170 , Nouvelle valeur normalisée = -19.9203 
+Colonne NORRR_H1 normalisée
+Normalisation de NORRR_H2 par rapport à NORRR_REF 
+Échantillon avant normalisation ( 5  lignes):
+CODE_C: 26140 , Valeur scénario ( NORRR_H2 ): 196.9388 , Valeur REF ( NORRR_REF ): 183.2058 
+CODE_C: 26150 , Valeur scénario ( NORRR_H2 ): 231.136 , Valeur REF ( NORRR_REF ): 239.0507 
+CODE_C: 26160 , Valeur scénario ( NORRR_H2 ): 180.7371 , Valeur REF ( NORRR_REF ): 176.531 
+CODE_C: 26300 , Valeur scénario ( NORRR_H2 ): 199.5325 , Valeur REF ( NORRR_REF ): 189.7483 
+CODE_C: 26170 , Valeur scénario ( NORRR_H2 ): 167.859 , Valeur REF ( NORRR_REF ): 167.5007 
+Échantillon après normalisation ( 5  lignes):
+CODE_C: 26140 , % Variation: 7.495934 , Calcul: (( 196.9388  -  183.2058 ) / | 183.2058 |) * 100
+CODE_C: 26150 , % Variation: -3.310902 , Calcul: (( 231.136  -  239.0507 ) / | 239.0507 |) * 100
+CODE_C: 26160 , % Variation: 2.382648 , Calcul: (( 180.7371  -  176.531 ) / | 176.531 |) * 100
+CODE_C: 26300 , % Variation: 5.156409 , Calcul: (( 199.5325  -  189.7483 ) / | 189.7483 |) * 100
+CODE_C: 26170 , % Variation: 0.2139383 , Calcul: (( 167.859  -  167.5007 ) / | 167.5007 |) * 100
+Mise à jour ligne 1 : CODE_C = 26140 , Nouvelle valeur normalisée = 7.495934 
+Mise à jour ligne 2 : CODE_C = 26150 , Nouvelle valeur normalisée = -3.310902 
+Mise à jour ligne 3 : CODE_C = 26160 , Nouvelle valeur normalisée = 2.382648 
+Mise à jour ligne 4 : CODE_C = 26300 , Nouvelle valeur normalisée = 5.156409 
+Mise à jour ligne 5 : CODE_C = 26170 , Nouvelle valeur normalisée = 0.2139383 
+Colonne NORRR_H2 normalisée
+Normalisation de NORRR_H3 par rapport à NORRR_REF 
+Échantillon avant normalisation ( 5  lignes):
+CODE_C: 26140 , Valeur scénario ( NORRR_H3 ): 223.1476 , Valeur REF ( NORRR_REF ): 183.2058 
+CODE_C: 26150 , Valeur scénario ( NORRR_H3 ): 239.6099 , Valeur REF ( NORRR_REF ): 239.0507 
+CODE_C: 26160 , Valeur scénario ( NORRR_H3 ): 181.5093 , Valeur REF ( NORRR_REF ): 176.531 
+CODE_C: 26300 , Valeur scénario ( NORRR_H3 ): 227.0034 , Valeur REF ( NORRR_REF ): 189.7483 
+CODE_C: 26170 , Valeur scénario ( NORRR_H3 ): 158.2059 , Valeur REF ( NORRR_REF ): 167.5007 
+Échantillon après normalisation ( 5  lignes):
+CODE_C: 26140 , % Variation: 21.8016 , Calcul: (( 223.1476  -  183.2058 ) / | 183.2058 |) * 100
+CODE_C: 26150 , % Variation: 0.2339332 , Calcul: (( 239.6099  -  239.0507 ) / | 239.0507 |) * 100
+CODE_C: 26160 , % Variation: 2.820062 , Calcul: (( 181.5093  -  176.531 ) / | 176.531 |) * 100
+CODE_C: 26300 , % Variation: 19.63396 , Calcul: (( 227.0034  -  189.7483 ) / | 189.7483 |) * 100
+CODE_C: 26170 , % Variation: -5.549121 , Calcul: (( 158.2059  -  167.5007 ) / | 167.5007 |) * 100
+Mise à jour ligne 1 : CODE_C = 26140 , Nouvelle valeur normalisée = 21.8016 
+Mise à jour ligne 2 : CODE_C = 26150 , Nouvelle valeur normalisée = 0.2339332 
+Mise à jour ligne 3 : CODE_C = 26160 , Nouvelle valeur normalisée = 2.820062 
+Mise à jour ligne 4 : CODE_C = 26300 , Nouvelle valeur normalisée = 19.63396 
+Mise à jour ligne 5 : CODE_C = 26170 , Nouvelle valeur normalisée = -5.549121 
+Colonne NORRR_H3 normalisée
+Fichier normalisé créé: Data/DRIAS_NORM/CUMUL_PRECIP_ETE/Resultats/CUMUL_PRECIP_ETE_2_6_clean_FINAL_RESULTS_POSTAL.gpkg 
+Traitement du fichier: Data/CUMUL_PRECIP_ETE/Resultats/CUMUL_PRECIP_ETE_4_5_clean_FINAL_RESULTS_POSTAL.gpkg 
+Colonnes dans le fichier de scénario: LIB, CODE_C, DEP, NORRR_H1, ARR_H1, NORRR_H2, ARR_H2, NORRR_H3, ARR_H3, geom 
+Colonnes dans le fichier de référence: LIB, CODE_C, DEP, NORRR_REF, geom 
+Normalisation de NORRR_H1 par rapport à NORRR_REF 
+Échantillon avant normalisation ( 5  lignes):
+CODE_C: 26140 , Valeur scénario ( NORRR_H1 ): 199.2462 , Valeur REF ( NORRR_REF ): 183.2058 
+CODE_C: 26150 , Valeur scénario ( NORRR_H1 ): 217.9614 , Valeur REF ( NORRR_REF ): 239.0507 
+CODE_C: 26160 , Valeur scénario ( NORRR_H1 ): 166.4612 , Valeur REF ( NORRR_REF ): 176.531 
+CODE_C: 26300 , Valeur scénario ( NORRR_H1 ): 192.866 , Valeur REF ( NORRR_REF ): 189.7483 
+CODE_C: 26170 , Valeur scénario ( NORRR_H1 ): 152.7394 , Valeur REF ( NORRR_REF ): 167.5007 
+Échantillon après normalisation ( 5  lignes):
+CODE_C: 26140 , % Variation: 8.755424 , Calcul: (( 199.2462  -  183.2058 ) / | 183.2058 |) * 100
+CODE_C: 26150 , % Variation: -8.822113 , Calcul: (( 217.9614  -  239.0507 ) / | 239.0507 |) * 100
+CODE_C: 26160 , % Variation: -5.704258 , Calcul: (( 166.4612  -  176.531 ) / | 176.531 |) * 100
+CODE_C: 26300 , % Variation: 1.643076 , Calcul: (( 192.866  -  189.7483 ) / | 189.7483 |) * 100
+CODE_C: 26170 , % Variation: -8.81268 , Calcul: (( 152.7394  -  167.5007 ) / | 167.5007 |) * 100
+Mise à jour ligne 1 : CODE_C = 26140 , Nouvelle valeur normalisée = 8.755424 
+Mise à jour ligne 2 : CODE_C = 26150 , Nouvelle valeur normalisée = -8.822113 
+Mise à jour ligne 3 : CODE_C = 26160 , Nouvelle valeur normalisée = -5.704258 
+Mise à jour ligne 4 : CODE_C = 26300 , Nouvelle valeur normalisée = 1.643076 
+Mise à jour ligne 5 : CODE_C = 26170 , Nouvelle valeur normalisée = -8.81268 
+Colonne NORRR_H1 normalisée
+Normalisation de NORRR_H2 par rapport à NORRR_REF 
+Échantillon avant normalisation ( 5  lignes):
+CODE_C: 26140 , Valeur scénario ( NORRR_H2 ): 189.5163 , Valeur REF ( NORRR_REF ): 183.2058 
+CODE_C: 26150 , Valeur scénario ( NORRR_H2 ): 200.8293 , Valeur REF ( NORRR_REF ): 239.0507 
+CODE_C: 26160 , Valeur scénario ( NORRR_H2 ): 161.2103 , Valeur REF ( NORRR_REF ): 176.531 
+CODE_C: 26300 , Valeur scénario ( NORRR_H2 ): 186.7054 , Valeur REF ( NORRR_REF ): 189.7483 
+CODE_C: 26170 , Valeur scénario ( NORRR_H2 ): 139.9105 , Valeur REF ( NORRR_REF ): 167.5007 
+Échantillon après normalisation ( 5  lignes):
+CODE_C: 26140 , % Variation: 3.444491 , Calcul: (( 189.5163  -  183.2058 ) / | 183.2058 |) * 100
+CODE_C: 26150 , % Variation: -15.98885 , Calcul: (( 200.8293  -  239.0507 ) / | 239.0507 |) * 100
+CODE_C: 26160 , % Variation: -8.678756 , Calcul: (( 161.2103  -  176.531 ) / | 176.531 |) * 100
+CODE_C: 26300 , % Variation: -1.603648 , Calcul: (( 186.7054  -  189.7483 ) / | 189.7483 |) * 100
+CODE_C: 26170 , % Variation: -16.47169 , Calcul: (( 139.9105  -  167.5007 ) / | 167.5007 |) * 100
+Mise à jour ligne 1 : CODE_C = 26140 , Nouvelle valeur normalisée = 3.444491 
+Mise à jour ligne 2 : CODE_C = 26150 , Nouvelle valeur normalisée = -15.98885 
+Mise à jour ligne 3 : CODE_C = 26160 , Nouvelle valeur normalisée = -8.678756 
+Mise à jour ligne 4 : CODE_C = 26300 , Nouvelle valeur normalisée = -1.603648 
+Mise à jour ligne 5 : CODE_C = 26170 , Nouvelle valeur normalisée = -16.47169 
+Colonne NORRR_H2 normalisée
+Normalisation de NORRR_H3 par rapport à NORRR_REF 
+Échantillon avant normalisation ( 5  lignes):
+CODE_C: 26140 , Valeur scénario ( NORRR_H3 ): 205.2476 , Valeur REF ( NORRR_REF ): 183.2058 
+CODE_C: 26150 , Valeur scénario ( NORRR_H3 ): 217.9286 , Valeur REF ( NORRR_REF ): 239.0507 
+CODE_C: 26160 , Valeur scénario ( NORRR_H3 ): 160.498 , Valeur REF ( NORRR_REF ): 176.531 
+CODE_C: 26300 , Valeur scénario ( NORRR_H3 ): 195.4368 , Valeur REF ( NORRR_REF ): 189.7483 
+CODE_C: 26170 , Valeur scénario ( NORRR_H3 ): 149.5144 , Valeur REF ( NORRR_REF ): 167.5007 
+Échantillon après normalisation ( 5  lignes):
+CODE_C: 26140 , % Variation: 12.03117 , Calcul: (( 205.2476  -  183.2058 ) / | 183.2058 |) * 100
+CODE_C: 26150 , % Variation: -8.835826 , Calcul: (( 217.9286  -  239.0507 ) / | 239.0507 |) * 100
+CODE_C: 26160 , % Variation: -9.082259 , Calcul: (( 160.498  -  176.531 ) / | 176.531 |) * 100
+CODE_C: 26300 , % Variation: 2.997921 , Calcul: (( 195.4368  -  189.7483 ) / | 189.7483 |) * 100
+CODE_C: 26170 , % Variation: -10.73803 , Calcul: (( 149.5144  -  167.5007 ) / | 167.5007 |) * 100
+Mise à jour ligne 1 : CODE_C = 26140 , Nouvelle valeur normalisée = 12.03117 
+Mise à jour ligne 2 : CODE_C = 26150 , Nouvelle valeur normalisée = -8.835826 
+Mise à jour ligne 3 : CODE_C = 26160 , Nouvelle valeur normalisée = -9.082259 
+Mise à jour ligne 4 : CODE_C = 26300 , Nouvelle valeur normalisée = 2.997921 
+Mise à jour ligne 5 : CODE_C = 26170 , Nouvelle valeur normalisée = -10.73803 
+Colonne NORRR_H3 normalisée
+Fichier normalisé créé: Data/DRIAS_NORM/CUMUL_PRECIP_ETE/Resultats/CUMUL_PRECIP_ETE_4_5_clean_FINAL_RESULTS_POSTAL.gpkg 
+Traitement du fichier: Data/CUMUL_PRECIP_ETE/Resultats/CUMUL_PRECIP_ETE_8_5_clean_FINAL_RESULTS_POSTAL.gpkg 
+***** FICHIER SCÉNARIO 8.5 DÉTECTÉ *****
+Colonnes dans le fichier de scénario: LIB, CODE_C, DEP, NORRR_H1, ARR_H1, NORRR_H2, ARR_H2, NORRR_H3, ARR_H3, geom 
+Colonnes dans le fichier de référence: LIB, CODE_C, DEP, NORRR_REF, geom 
+Normalisation de NORRR_H1 par rapport à NORRR_REF 
+Échantillon avant normalisation ( 5  lignes):
+CODE_C: 26140 , Valeur scénario ( NORRR_H1 ): 225.2613 , Valeur REF ( NORRR_REF ): 183.2058 
+CODE_C: 26150 , Valeur scénario ( NORRR_H1 ): 245.3978 , Valeur REF ( NORRR_REF ): 239.0507 
+CODE_C: 26160 , Valeur scénario ( NORRR_H1 ): 189.9322 , Valeur REF ( NORRR_REF ): 176.531 
+CODE_C: 26300 , Valeur scénario ( NORRR_H1 ): 216.9792 , Valeur REF ( NORRR_REF ): 189.7483 
+CODE_C: 26170 , Valeur scénario ( NORRR_H1 ): 163.9248 , Valeur REF ( NORRR_REF ): 167.5007 
+Échantillon après normalisation ( 5  lignes):
+CODE_C: 26140 , % Variation: 22.95536 , Calcul: (( 225.2613  -  183.2058 ) / | 183.2058 |) * 100
+CODE_C: 26150 , % Variation: 2.655126 , Calcul: (( 245.3978  -  239.0507 ) / | 239.0507 |) * 100
+CODE_C: 26160 , % Variation: 7.591398 , Calcul: (( 189.9322  -  176.531 ) / | 176.531 |) * 100
+CODE_C: 26300 , % Variation: 14.35106 , Calcul: (( 216.9792  -  189.7483 ) / | 189.7483 |) * 100
+CODE_C: 26170 , % Variation: -2.13485 , Calcul: (( 163.9248  -  167.5007 ) / | 167.5007 |) * 100
+Mise à jour ligne 1 : CODE_C = 26140 , Nouvelle valeur normalisée = 22.95536 
+Mise à jour ligne 2 : CODE_C = 26150 , Nouvelle valeur normalisée = 2.655126 
+Mise à jour ligne 3 : CODE_C = 26160 , Nouvelle valeur normalisée = 7.591398 
+Mise à jour ligne 4 : CODE_C = 26300 , Nouvelle valeur normalisée = 14.35106 
+Mise à jour ligne 5 : CODE_C = 26170 , Nouvelle valeur normalisée = -2.13485 
+Colonne NORRR_H1 normalisée
+Normalisation de NORRR_H2 par rapport à NORRR_REF 
+Échantillon avant normalisation ( 5  lignes):
+CODE_C: 26140 , Valeur scénario ( NORRR_H2 ): 204.4183 , Valeur REF ( NORRR_REF ): 183.2058 
+CODE_C: 26150 , Valeur scénario ( NORRR_H2 ): 222.2444 , Valeur REF ( NORRR_REF ): 239.0507 
+CODE_C: 26160 , Valeur scénario ( NORRR_H2 ): 162.3655 , Valeur REF ( NORRR_REF ): 176.531 
+CODE_C: 26300 , Valeur scénario ( NORRR_H2 ): 204.9139 , Valeur REF ( NORRR_REF ): 189.7483 
+CODE_C: 26170 , Valeur scénario ( NORRR_H2 ): 139.4763 , Valeur REF ( NORRR_REF ): 167.5007 
+Échantillon après normalisation ( 5  lignes):
+CODE_C: 26140 , % Variation: 11.57853 , Calcul: (( 204.4183  -  183.2058 ) / | 183.2058 |) * 100
+CODE_C: 26150 , % Variation: -7.030444 , Calcul: (( 222.2444  -  239.0507 ) / | 239.0507 |) * 100
+CODE_C: 26160 , % Variation: -8.024349 , Calcul: (( 162.3655  -  176.531 ) / | 176.531 |) * 100
+CODE_C: 26300 , % Variation: 7.992472 , Calcul: (( 204.9139  -  189.7483 ) / | 189.7483 |) * 100
+CODE_C: 26170 , % Variation: -16.73091 , Calcul: (( 139.4763  -  167.5007 ) / | 167.5007 |) * 100
+Mise à jour ligne 1 : CODE_C = 26140 , Nouvelle valeur normalisée = 11.57853 
+Mise à jour ligne 2 : CODE_C = 26150 , Nouvelle valeur normalisée = -7.030444 
+Mise à jour ligne 3 : CODE_C = 26160 , Nouvelle valeur normalisée = -8.024349 
+Mise à jour ligne 4 : CODE_C = 26300 , Nouvelle valeur normalisée = 7.992472 
+Mise à jour ligne 5 : CODE_C = 26170 , Nouvelle valeur normalisée = -16.73091 
+Colonne NORRR_H2 normalisée
+
+***** TRAITEMENT DÉTAILLÉ POUR SCÉNARIO 8.5 ET HORIZON H3 *****
+Normalisation de NORRR_H3 par rapport à NORRR_REF 
+Échantillon avant normalisation ( 20  lignes):
+CODE_C: 26140 , Valeur scénario ( NORRR_H3 ): 186.5298 , Valeur REF ( NORRR_REF ): 183.2058 
+CODE_C: 26150 , Valeur scénario ( NORRR_H3 ): 195.9152 , Valeur REF ( NORRR_REF ): 239.0507 
+CODE_C: 26160 , Valeur scénario ( NORRR_H3 ): 165.4145 , Valeur REF ( NORRR_REF ): 176.531 
+CODE_C: 26300 , Valeur scénario ( NORRR_H3 ): 188.9472 , Valeur REF ( NORRR_REF ): 189.7483 
+CODE_C: 26170 , Valeur scénario ( NORRR_H3 ): 124.2815 , Valeur REF ( NORRR_REF ): 167.5007 
+CODE_C: 26190 , Valeur scénario ( NORRR_H3 ): 224.1911 , Valeur REF ( NORRR_REF ): 248.6201 
+CODE_C: 26200 , Valeur scénario ( NORRR_H3 ): 164.4148 , Valeur REF ( NORRR_REF ): 167.9903 
+CODE_C: 45800 , Valeur scénario ( NORRR_H3 ): 130.0173 , Valeur REF ( NORRR_REF ): 156.0581 
+CODE_C: 26210 , Valeur scénario ( NORRR_H3 ): 190.2528 , Valeur REF ( NORRR_REF ): 199.7462 
+CODE_C: 26220 , Valeur scénario ( NORRR_H3 ): 150.292 , Valeur REF ( NORRR_REF ): 191.7041 
+CODE_C: 26230 , Valeur scénario ( NORRR_H3 ): 152.8042 , Valeur REF ( NORRR_REF ): 159.8889 
+CODE_C: 26240 , Valeur scénario ( NORRR_H3 ): 184.9163 , Valeur REF ( NORRR_REF ): 183.2865 
+CODE_C: 26250 , Valeur scénario ( NORRR_H3 ): 171.7874 , Valeur REF ( NORRR_REF ): 171.7195 
+CODE_C: 26260 , Valeur scénario ( NORRR_H3 ): 183.1617 , Valeur REF ( NORRR_REF ): 185.1317 
+CODE_C: 26310 , Valeur scénario ( NORRR_H3 ): 164.8655 , Valeur REF ( NORRR_REF ): 204.8678 
+CODE_C: 26320 , Valeur scénario ( NORRR_H3 ): 179.2553 , Valeur REF ( NORRR_REF ): 170.7352 
+CODE_C: 26330 , Valeur scénario ( NORRR_H3 ): 183.1518 , Valeur REF ( NORRR_REF ): 186.5911 
+CODE_C: 26450 , Valeur scénario ( NORRR_H3 ): 174.782 , Valeur REF ( NORRR_REF ): 178.3429 
+CODE_C: 26340 , Valeur scénario ( NORRR_H3 ): 163.9816 , Valeur REF ( NORRR_REF ): 196.2521 
+CODE_C: 26350 , Valeur scénario ( NORRR_H3 ): 193.4386 , Valeur REF ( NORRR_REF ): 204.4547 
+
+Recherche de Plabennec ou des communes comportant 'Plabenn' dans leur code:
+COMMUNE PLABENNEC TROUVÉE - CODE_C: 29160 , Valeur scénario: 107.8639 , Valeur REF: 124.5938 
+
+STATISTIQUES DES VALEURS NORMALISÉES:
+Min: -37.27753 , Max: 31.04318 , Moyenne: -9.073564 , Médiane: -11.88927 
+Quantiles (5%, 25%, 75%, 95%): -26.48571 -17.89603 1.723877 9.654151 
+Échantillon après normalisation ( 20  lignes):
+CODE_C: 26140 , % Variation: 1.81434 , Calcul: (( 186.5298  -  183.2058 ) / | 183.2058 |) * 100
+CODE_C: 26150 , % Variation: -18.0445 , Calcul: (( 195.9152  -  239.0507 ) / | 239.0507 |) * 100
+CODE_C: 26160 , % Variation: -6.297173 , Calcul: (( 165.4145  -  176.531 ) / | 176.531 |) * 100
+CODE_C: 26300 , % Variation: -0.4221785 , Calcul: (( 188.9472  -  189.7483 ) / | 189.7483 |) * 100
+CODE_C: 26170 , % Variation: -25.80238 , Calcul: (( 124.2815  -  167.5007 ) / | 167.5007 |) * 100
+CODE_C: 26190 , % Variation: -9.825818 , Calcul: (( 224.1911  -  248.6201 ) / | 248.6201 |) * 100
+CODE_C: 26200 , % Variation: -2.128366 , Calcul: (( 164.4148  -  167.9903 ) / | 167.9903 |) * 100
+CODE_C: 45800 , % Variation: -16.68663 , Calcul: (( 130.0173  -  156.0581 ) / | 156.0581 |) * 100
+CODE_C: 26210 , % Variation: -4.752709 , Calcul: (( 190.2528  -  199.7462 ) / | 199.7462 |) * 100
+CODE_C: 26220 , % Variation: -21.60208 , Calcul: (( 150.292  -  191.7041 ) / | 191.7041 |) * 100
+CODE_C: 26230 , % Variation: -4.430984 , Calcul: (( 152.8042  -  159.8889 ) / | 159.8889 |) * 100
+CODE_C: 26240 , % Variation: 0.889208 , Calcul: (( 184.9163  -  183.2865 ) / | 183.2865 |) * 100
+CODE_C: 26250 , % Variation: 0.03954642 , Calcul: (( 171.7874  -  171.7195 ) / | 171.7195 |) * 100
+CODE_C: 26260 , % Variation: -1.064143 , Calcul: (( 183.1617  -  185.1317 ) / | 185.1317 |) * 100
+CODE_C: 26310 , % Variation: -19.52589 , Calcul: (( 164.8655  -  204.8678 ) / | 204.8678 |) * 100
+CODE_C: 26320 , % Variation: 4.990234 , Calcul: (( 179.2553  -  170.7352 ) / | 170.7352 |) * 100
+CODE_C: 26330 , % Variation: -1.8432 , Calcul: (( 183.1518  -  186.5911 ) / | 186.5911 |) * 100
+CODE_C: 26450 , % Variation: -1.996693 , Calcul: (( 174.782  -  178.3429 ) / | 178.3429 |) * 100
+CODE_C: 26340 , % Variation: -16.44336 , Calcul: (( 163.9816  -  196.2521 ) / | 196.2521 |) * 100
+CODE_C: 26350 , % Variation: -5.388042 , Calcul: (( 193.4386  -  204.4547 ) / | 204.4547 |) * 100
+Mise à jour ligne 1 : CODE_C = 26140 , Nouvelle valeur normalisée = 1.81434 
+Mise à jour ligne 2 : CODE_C = 26150 , Nouvelle valeur normalisée = -18.0445 
+Mise à jour ligne 3 : CODE_C = 26160 , Nouvelle valeur normalisée = -6.297173 
+Mise à jour ligne 4 : CODE_C = 26300 , Nouvelle valeur normalisée = -0.4221785 
+Mise à jour ligne 5 : CODE_C = 26170 , Nouvelle valeur normalisée = -25.80238 
+Mise à jour ligne 6 : CODE_C = 26190 , Nouvelle valeur normalisée = -9.825818 
+Mise à jour ligne 7 : CODE_C = 26200 , Nouvelle valeur normalisée = -2.128366 
+Mise à jour ligne 8 : CODE_C = 45800 , Nouvelle valeur normalisée = -16.68663 
+Mise à jour ligne 9 : CODE_C = 26210 , Nouvelle valeur normalisée = -4.752709 
+Mise à jour ligne 10 : CODE_C = 26220 , Nouvelle valeur normalisée = -21.60208 
+Mise à jour ligne 11 : CODE_C = 26230 , Nouvelle valeur normalisée = -4.430984 
+Mise à jour ligne 12 : CODE_C = 26240 , Nouvelle valeur normalisée = 0.889208 
+Mise à jour ligne 13 : CODE_C = 26250 , Nouvelle valeur normalisée = 0.03954642 
+Mise à jour ligne 14 : CODE_C = 26260 , Nouvelle valeur normalisée = -1.064143 
+Mise à jour ligne 15 : CODE_C = 26310 , Nouvelle valeur normalisée = -19.52589 
+Mise à jour ligne 16 : CODE_C = 26320 , Nouvelle valeur normalisée = 4.990234 
+Mise à jour ligne 17 : CODE_C = 26330 , Nouvelle valeur normalisée = -1.8432 
+Mise à jour ligne 18 : CODE_C = 26450 , Nouvelle valeur normalisée = -1.996693 
+Mise à jour ligne 19 : CODE_C = 26340 , Nouvelle valeur normalisée = -16.44336 
+Mise à jour ligne 20 : CODE_C = 26350 , Nouvelle valeur normalisée = -5.388042 
+Colonne NORRR_H3 normalisée
+Fichier normalisé créé: Data/DRIAS_NORM/CUMUL_PRECIP_ETE/Resultats/CUMUL_PRECIP_ETE_8_5_clean_FINAL_RESULTS_POSTAL.gpkg 
+Traitement du fichier: Data/CUMUL_PRECIP_ETE/Resultats/CUMUL_PRECIP_ETE_REF_clean_FINAL_RESULTS_POSTAL.gpkg 
+Fichier de référence détecté, copie directe...
+
+Normalisation des données de précipitations terminée!
