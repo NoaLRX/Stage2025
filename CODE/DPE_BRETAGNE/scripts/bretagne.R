@@ -88,7 +88,7 @@ fit_dpe <- lm(
       age_batiment +
       log(surface_habitable) +
       surface_terrain +
-      nb_etages +
+      # nb_etages +
       nb_pieces +
       DIST_VERT_KM +
       DIST_BLEU_KM +
@@ -101,13 +101,13 @@ fit_dpe <- lm(
       mvt_terrain +
       secheresse +
       grele +
-      tempete +
+      # tempete +
       # mvt_sech+
       inond_nappe +
       glissement +
       # mvt_hors_sech+
       eboulement +
-      seisme +
+      # seisme +
       # effondrement+
       # lave_torr+
       # avalanche+
@@ -396,7 +396,7 @@ fit_dpe <- lm(
     relevel(factor(dpe), ref = "D") +
       age_batiment +
       log(surface_habitable) +
-      surface_terrain +
+      # surface_terrain +
       nb_etages +
       nb_pieces +
       DIST_VERT_KM +
@@ -405,33 +405,34 @@ fit_dpe <- lm(
       n_vide +
       revenu_median +
       part_proprio +
+
       # Partie CATNAT
       inond +
       mvt_terrain +
       secheresse +
       grele +
-      tempete +
-      # mvt_sech+
-      inond_nappe +
+      # tempete +
+      # mvt_sech +
+      # inond_nappe +
       glissement +
-      # mvt_hors_sech+
-      eboulement +
-      seisme +
-      # effondrement+
-      # lave_torr+
-      # avalanche+
+      # mvt_hors_sech +
+      # eboulement +
+      # seisme +
+      # effondrement +
+      # lave_torr +
+      # avalanche +
       choc_vagues +
-      # gliss_effond+
+      # gliss_effond +
       poids_neige +
-      # vent_cyclo+
-      # raz_maree+
-      # inond_vagues+
-      # gliss_eboul+
-      coulee_boue +
-      # seismes+
-      # choc_vagues2+
-      # divers+
-      # volcan+
+      # vent_cyclo +
+      # raz_maree +
+      # inond_vagues +
+      # gliss_eboul +
+      # coulee_boue +
+      # seismes +
+      # choc_vagues2 +
+      # divers +
+      # volcan,
       relevel(factor(code_dep), ref = "29"), # Effets fixes départementaux
   data = appart
 )
